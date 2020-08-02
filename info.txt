@@ -1,0 +1,39 @@
+<== react-native init 'nomeProjeto'
+<== react-native start
+<== react-native run-android
+<== react-native start --reset-cache
+
+DEPENDENCIAS <==
+
+* * * SEMPRE QUE INSTALAR UMA LIB OU ALGUMA COISA NO PROJETO
+VOCÊ PRECISA EXECUTAR NOVAMENTO:
+    <== react-native run-android
+
+
+
+
+INSTALAR COM NPM <==
+
+* react
+* react-native
+* react-native-gesture-handler
+    <== DEPOIS DISSO EXECUTE NO TERMINAL
+        <== react-native link react-native-gesture-handler
+            <== react-native run-android
+* react-navidation
+* react-native-vector-icons
+    <== DEPOIS DISSO EXECUTE NO TERMINAL
+        <== react-native link react-native-vector-icons
+            <== react-native run-android
+
+
+
+Para Linux <==
+
+* * * Abrir emulador direto pelo terminal <==
+        * emulator @Andoid-Emuler
+
+
+
+<== QUANDO O APP CRACHAR <== 
+   RODAR NO TERMINAL: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
